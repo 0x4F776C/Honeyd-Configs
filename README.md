@@ -32,7 +32,7 @@ Want to be a cyber Gemini? Try Honeyd!
   cat /usr/share/nmap/nmap-os-db | grep "Fingerprint"
   ```
     
-  Strings after "Personality" can be used in Honeyd configuration file as personality
+  Strings after "Fingerprint" can be used in Honeyd configuration file as personality
     
   ![nmap.assoc](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap-os-db.PNG)
     
