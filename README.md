@@ -1,2 +1,2 @@
 # Honeyd-Configs
-Want to be a digital Gemini? Try Honeyd!
+Want to be a cyber Gemini? Try Honeyd!
