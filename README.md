@@ -9,18 +9,35 @@ Want to be a cyber Gemini? Try Honeyd!
 
 ## How to obtain personality?
 
-```console
-cat /usr/share/honeyd/nmap.assoc
-```
-  
-Strings after "Personality" can be used in Honeyd configuration file as personality
-
-![nmap-os-db](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap-os-db.PNG)
-
 <details open>
-  <summary>Nmap installed?</summary>
-  <br>
+  <summary>No Nmap? No worries!</summary>
+  <p>
+    
+  ```console
+  cat /usr/share/honeyd/nmap.assoc
+  ```
   
+  Strings after "Personality" can be used in Honeyd configuration file as personality
+
+  ![nmap-os-db](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap-os-db.PNG)
+  
+  </p>
+</details>
+  
+<details>
+  <summary>Nmap method</summary>
+  <p>
+    
+  ```console
+  cat /usr/share/nmap/nmap-os-db | grep "Fingerprint"
+  ```
+    
+  Strings after "#" can be used in Honeyd configuration file as personality
+    
+  ![nmap.assoc](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap.assoc.PNG)
+    
+  </p>
+</details>
 
 ## Usage
 
@@ -45,19 +62,3 @@ After executing Honeyd:
 [Honeyd GitHub Page](https://github.com/DataSoft/Honeyd)
 
 [Tutorial](http://travisaltman.com/honeypot-honeyd-tutorial-part-1-getting-started/)
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-```console
-cat /usr/share/nmap/nmap-os-db | grep "Fingerprint"
-```
-  
-Strings after "#" can be used in Honeyd configuration file as personality
-
-![nmap.assoc](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap.assoc.PNG)
-
-</p>
-</details>
