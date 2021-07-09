@@ -19,7 +19,7 @@ Want to be a cyber Gemini? Try Honeyd!
   
   Strings after "Personality" can be used in Honeyd configuration file as personality
 
-  ![nmap-os-db](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap-os-db.PNG)
+  ![nmap-os-db](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap.assoc.PNG)
   
   </p>
 </details>
@@ -34,7 +34,7 @@ Want to be a cyber Gemini? Try Honeyd!
     
   Strings after "#" can be used in Honeyd configuration file as personality
     
-  ![nmap.assoc](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap.assoc.PNG)
+  ![nmap.assoc](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap-os-db.PNG)
     
   </p>
 </details>
