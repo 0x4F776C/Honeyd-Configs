@@ -8,6 +8,7 @@ Want to be a cyber Gemini? Try Honeyd!
 * honeyd
 
 ## How to obtain personality?
+
 ```console
 cat /usr/share/honeyd/nmap.assoc
 ```
@@ -25,6 +26,7 @@ Strings after "Personality" can be used in Honeyd configuration file as personal
 ![nmap-os-db](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap-os-db.PNG)
 
 ### Usage
+
 **NOTE:** Honeyd isn't updated anymore. Therefore, you should use Ubuntu 12.04 LTS for it.
 
 Docker image for Honeyd container: [Link](https://hub.docker.com/repository/docker/0x4f776c/imunes-honeyd)
@@ -33,15 +35,16 @@ Docker image for Honeyd container: [Link](https://hub.docker.com/repository/dock
 honeyd -d -f Honeyd-Configs/<personality>.conf
 ```
 
-Before executing Honeyd
+Before executing Honeyd:
 
 ![Before](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/before-honeyd.PNG)
 
-After executing Honeyd
+After executing Honeyd:
 
 ![After](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/after-honeyd.PNG)
 
 ### References
+
 [Honeyd GitHub Page](https://github.com/DataSoft/Honeyd)
 
 [Tutorial](http://travisaltman.com/honeypot-honeyd-tutorial-part-1-getting-started/)
