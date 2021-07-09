@@ -20,14 +20,7 @@ Strings after "Personality" can be used in Honeyd configuration file as personal
 <details open>
   <summary>Nmap installed?</summary>
   <br>
-  ```console
-  cat /usr/share/nmap/nmap-os-db | grep "Fingerprint"
-  ```
   
-  Strings after "#" can be used in Honeyd configuration file as personality
-
-  ![nmap.assoc](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap.assoc.PNG)
-</details>
 
 ## Usage
 
@@ -58,9 +51,13 @@ After executing Honeyd:
 
 #### yes, even hidden code blocks!
 
-```python
-print("hello world!")
+```console
+cat /usr/share/nmap/nmap-os-db | grep "Fingerprint"
 ```
+  
+Strings after "#" can be used in Honeyd configuration file as personality
+
+![nmap.assoc](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap.assoc.PNG)
 
 </p>
 </details>
