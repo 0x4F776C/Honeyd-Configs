@@ -4,7 +4,7 @@ Want to be a cyber Gemini? Try Honeyd!
 **Honeyd** is an open source program that allow users to set up and emulate virtual hosts on computer network. These v-hosts can be configured to mimic/spoof different typs of devices, operating systems, etc... allowing users to simulate an infinite number of network nodes. Honeyd is mainly used in the field of computer security and in projects such as network simulation.
 
 **Requirements:**
-* nmap
+* nmap (optional)
 * honeyd
 
 ## How to obtain personality?
@@ -12,18 +12,22 @@ Want to be a cyber Gemini? Try Honeyd!
 ```console
 cat /usr/share/honeyd/nmap.assoc
 ```
-
-Strings after "#" can be used in Honeyd configuration file as personality
-
-![nmap.assoc](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap.assoc.PNG)
-
-```console
-cat /usr/share/nmap/nmap-os-db | grep "Fingerprint"
-```
-
+  
 Strings after "Personality" can be used in Honeyd configuration file as personality
 
 ![nmap-os-db](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap-os-db.PNG)
+
+<details open>
+  <summary>Nmap installed?</summary>
+  <br>
+  ```console
+  cat /usr/share/nmap/nmap-os-db | grep "Fingerprint"
+  ```
+  
+  Strings after "#" can be used in Honeyd configuration file as personality
+
+  ![nmap.assoc](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap.assoc.PNG)
+</details>
 
 ## Usage
 
@@ -48,3 +52,15 @@ After executing Honeyd:
 [Honeyd GitHub Page](https://github.com/DataSoft/Honeyd)
 
 [Tutorial](http://travisaltman.com/honeypot-honeyd-tutorial-part-1-getting-started/)
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
