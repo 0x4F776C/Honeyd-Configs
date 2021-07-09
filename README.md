@@ -25,7 +25,7 @@ Strings after "Personality" can be used in Honeyd configuration file as personal
 
 ![nmap-os-db](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap-os-db.PNG)
 
-### Usage
+## Usage
 
 **NOTE:** Honeyd isn't updated anymore. Therefore, you should use Ubuntu 12.04 LTS for it.
 
