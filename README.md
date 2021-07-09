@@ -3,21 +3,23 @@ Want to be a cyber Gemini? Try Honeyd!
 
 ## How to obtain personality?
 **Requirements:**
-> nmap
+* nmap
+* honeyd
+---
 
 ```console
-locate nmap.prints
+cat /usr/share/honeyd/nmap.assoc
+```
+Strings after "#" can be used in Honeyd configuration file as personality
+![nmap.assoc](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap.assoc.PNG)
 
-cat /usr/share/honeyd/nmap.prints | less
-OR
+```console
 cat /usr/share/nmap/nmap-os-db | grep "Fingerprint"
 ```
-
 Strings after "Personality" can be used in Honeyd configuration file as personality
-
 ![nmap-os-db](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/nmap-os-db.PNG)
 
-## Usage
+### Usage
 **NOTE:** Honeyd isn't updated anymore. Therefore, you should use Ubuntu 12.04 LTS for it.
 
 Docker image for Honeyd container: [Link](https://hub.docker.com/repository/docker/0x4f776c/imunes-honeyd)
