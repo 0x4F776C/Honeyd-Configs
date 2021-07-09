@@ -1,12 +1,11 @@
 # Honeyd-Configs
 Want to be a cyber Gemini? Try Honeyd!
 
-## How to obtain personality?
 **Requirements:**
 * nmap
 * honeyd
----
 
+## How to obtain personality?
 ```console
 cat /usr/share/honeyd/nmap.assoc
 ```
