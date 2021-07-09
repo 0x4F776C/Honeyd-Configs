@@ -34,9 +34,11 @@ honeyd -d -f Honeyd-Configs/<personality>.conf
 ```
 
 Before executing Honeyd
+
 ![Before](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/before-honeyd.PNG)
 
 After executing Honeyd
+
 ![After](https://github.com/0x4F776C/Honeyd-Configs/blob/main/screenshots/after-honeyd.PNG)
 
 ### References
