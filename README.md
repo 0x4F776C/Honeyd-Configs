@@ -61,4 +61,6 @@ After executing Honeyd:
 
 [Honeyd GitHub Page](https://github.com/DataSoft/Honeyd)
 
-[Tutorial](http://travisaltman.com/honeypot-honeyd-tutorial-part-1-getting-started/)
+[Tutorial - Linux](http://travisaltman.com/honeypot-honeyd-tutorial-part-1-getting-started/)
+
+[Tutorial - Windows](https://www.itprotoday.com/strategy/honeyd-windows)
