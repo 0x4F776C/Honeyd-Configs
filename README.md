@@ -64,3 +64,5 @@ After executing Honeyd:
 [Tutorial - Linux](http://travisaltman.com/honeypot-honeyd-tutorial-part-1-getting-started/)
 
 [Tutorial - Windows](https://www.itprotoday.com/strategy/honeyd-windows)
+
+[Paper for Honeyd & arpd](https://www.scitepress.org/Papers/2008/19272/19272.pdf)
