@@ -41,7 +41,7 @@ Want to be a cyber Gemini? Try Honeyd!
 
 ## Usage
 
-**NOTE:** Honeyd isn't updated anymore. Therefore, you should use Ubuntu 12.04 LTS for it.
+**NOTE:** Honeyd isn't updated anymore. Therefore, you should use Ubuntu 12.04 LTS for best compatibility. However, I have Docker images for both Ubuntu 12.04 LTS and Ubuntu 20.04 LTS with working copy of Honeyd. Feel free to use them!
 
 Docker image for Honeyd container: [Link](https://hub.docker.com/repository/docker/0x4f776c/imunes-honeyd)
 
