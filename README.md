@@ -1,5 +1,5 @@
 # Honeyd-Configs
-Want to be a cyber Gemini? Try Honeyd!
+Are you a Gemini or have you been wanting to be one? If so, try Honeyd! You will be able to double-face other systems online.
 
 **Honeyd** is an open source program that allow users to set up and emulate virtual hosts on computer network. These v-hosts can be configured to mimic/spoof different typs of devices, operating systems, etc... allowing users to simulate an infinite number of network nodes. Honeyd is mainly used in the field of computer security and in projects such as network simulation.
 
